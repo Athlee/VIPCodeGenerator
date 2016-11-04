@@ -11,15 +11,15 @@
 	<key>GeneratorConfig</key>
 	<dict>
 		<key>Author</key>
-		<string>ATHLEE LLC</string>
+		<string>__AUTHOR__</string>
 		<key>Creator</key>
-		<string>Eugene Mozharovsky</string>
+		<string>__CREATOR__</string>
 		<key>Date</key>
 		<string></string>
 		<key>Name</key>
-		<string>Onboarding</string>
+		<string>__NAME__</string>
 		<key>Project name</key>
-		<string>PhotoFIT</string>
+		<string>__PROJECT_NAME__</string>
 	</dict>
 	<key>Output path</key>
 	<string>Output</string>
