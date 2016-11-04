@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B3A8051DCD233D00B8D192 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A8041DCD233D00B8D192 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04B3A7FF1DCD233D00B8D192 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04B3A8011DCD233D00B8D192 /* VIPCodeGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VIPCodeGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B3A8041DCD233D00B8D192 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04B3A80B1DCD23A000B8D192 /* __NAME__ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = __NAME__ViewController.swift; sourceTree = "<group>"; };
+		04B3A80D1DCD23AD00B8D192 /* __NAME__Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = __NAME__Interactor.swift; sourceTree = "<group>"; };
+		04B3A80F1DCD23B500B8D192 /* __NAME__Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = __NAME__Presenter.swift; sourceTree = "<group>"; };
+		04B3A8111DCD23BF00B8D192 /* __NAME__Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = __NAME__Model.swift; sourceTree = "<group>"; };
+		04B3A8131DCD23C600B8D192 /* __NAME__Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = __NAME__Configurator.swift; sourceTree = "<group>"; };
+		04B3A8151DCD23DB00B8D192 /* __NAME__Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = __NAME__Router.swift; sourceTree = "<group>"; };
+		04B3A81A1DCD344900B8D192 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B3A7FE1DCD233D00B8D192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B3A7F81DCD233D00B8D192 = {
+			isa = PBXGroup;
+			children = (
+				04B3A8031DCD233D00B8D192 /* VIPCodeGenerator */,
+				04B3A8021DCD233D00B8D192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B3A8021DCD233D00B8D192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B3A8011DCD233D00B8D192 /* VIPCodeGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B3A8031DCD233D00B8D192 /* VIPCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				04B3A8041DCD233D00B8D192 /* main.swift */,
+				04B3A81A1DCD344900B8D192 /* Config.plist */,
+				04B3A8181DCD24CE00B8D192 /* Output */,
+				04B3A8171DCD23E500B8D192 /* Pattern */,
+			);
+			path = VIPCodeGenerator;
+			sourceTree = "<group>";
+		};
+		04B3A8171DCD23E500B8D192 /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				04B3A80B1DCD23A000B8D192 /* __NAME__ViewController.swift */,
+				04B3A80D1DCD23AD00B8D192 /* __NAME__Interactor.swift */,
+				04B3A80F1DCD23B500B8D192 /* __NAME__Presenter.swift */,
+				04B3A8111DCD23BF00B8D192 /* __NAME__Model.swift */,
+				04B3A8131DCD23C600B8D192 /* __NAME__Configurator.swift */,
+				04B3A8151DCD23DB00B8D192 /* __NAME__Router.swift */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
+		04B3A8181DCD24CE00B8D192 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B3A8001DCD233D00B8D192 /* VIPCodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B3A8081DCD233D00B8D192 /* Build configuration list for PBXNativeTarget "VIPCodeGenerator" */;
+			buildPhases = (
+				04B3A7FD1DCD233D00B8D192 /* Sources */,
+				04B3A7FE1DCD233D00B8D192 /* Frameworks */,
+				04B3A7FF1DCD233D00B8D192 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPCodeGenerator;
+			productName = VIPCodeGenerator;
+			productReference = 04B3A8011DCD233D00B8D192 /* VIPCodeGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B3A7F91DCD233D00B8D192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mozharovsky;
+				TargetAttributes = {
+					04B3A8001DCD233D00B8D192 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 04B3A7FC1DCD233D00B8D192 /* Build configuration list for PBXProject "VIPCodeGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04B3A7F81DCD233D00B8D192;
+			productRefGroup = 04B3A8021DCD233D00B8D192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B3A8001DCD233D00B8D192 /* VIPCodeGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B3A7FD1DCD233D00B8D192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B3A8051DCD233D00B8D192 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04B3A8061DCD233D00B8D192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B3A8071DCD233D00B8D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04B3A8091DCD233D00B8D192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/VIPCodeGenerator/Config.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.athlee.generator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04B3A80A1DCD233D00B8D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/VIPCodeGenerator/Config.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.athlee.generator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B3A7FC1DCD233D00B8D192 /* Build configuration list for PBXProject "VIPCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3A8061DCD233D00B8D192 /* Debug */,
+				04B3A8071DCD233D00B8D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B3A8081DCD233D00B8D192 /* Build configuration list for PBXNativeTarget "VIPCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3A8091DCD233D00B8D192 /* Debug */,
+				04B3A80A1DCD233D00B8D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B3A7F91DCD233D00B8D192 /* Project object */;
+}
