@@ -28,26 +28,26 @@ public struct Config {
 Use the `GeneratorConfig` dictionary to add values. 
 
 ```php
-	<key>GeneratorConfig</key>
-	 <dict>
-    <key>Name</key>
-	  <string>__NAME__</string>
-	  <key>Author</key>
-	  <string>__AUTHOR__</string>
-    <key>Date</key>
-	  <string></string>
-    <key>Project name</key>
-	  <string>__PROJECT_NAME__</string>
-	  <key>Creator</key>
-	  <string>__CREATOR__</string>
-	 </dict>
+<key>GeneratorConfig</key>
+<dict>
+<key>Name</key>
+<string>__NAME__</string>
+<key>Author</key>
+<string>__AUTHOR__</string>
+<key>Date</key>
+<string></string>
+<key>Project name</key>
+<string>__PROJECT_NAME__</string>
+<key>Creator</key>
+<string>__CREATOR__</string>
+</dict>
 ```
 
 > Note: if `Date` string is empty, generator will use current date as default.
 
 ## Path
 
-Please, note, that `VIPCodeGenerator` is being run via command line tools (`generate.sh` script handles it). It uses `args[1]` as the path where `/Patterns` and `/Output` folders are located (these ones can actually have other names). 
+Please, note, that `VIPCodeGenerator` is being run via command line tools (`generate.sh` script handles it). It uses `args[1]` as the path where `/Pattern` and `/Output` folders are located (these ones can actually have other names). 
 
 ## Patterns
 
@@ -64,7 +64,7 @@ public struct PatternFile {
 }
 ```
 
-Standard ones are located in the `/Patterns` folder. You can change these by changing the patterns' path in `Config.plist`.
+Standard ones are located in the `/Pattern` folder. You can change these by changing the patterns' path in `Config.plist`.
 
 ```php
 	<key>Pattern path</key>
