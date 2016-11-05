@@ -32,8 +32,7 @@ open class __NAME__ViewController: UIViewController, __NAME__ViewControllerInput
         __NAME__Configurator.configure(viewController: self)
     }
     
-    override open func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
-
