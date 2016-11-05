@@ -2,7 +2,7 @@
   <img src ="https://raw.githubusercontent.com/Athlee/VIPCodeGenerator/master/Assets/logo.png" />
 </p>
 
-### Requirements
+# Requirements
 - Swift 3 
 
 # Usage
