@@ -1,5 +1,3 @@
-# VIPCodeGenerator
-
 <p align="center">
   <img src ="https://raw.githubusercontent.com/Athlee/VIPCodeGenerator/master/Assets/logo.png" />
 </p>
