@@ -84,7 +84,7 @@ Generated code is generally expected to be generated within `/Output` folder but
 This is how VIP cycle generally looks like: 
 
 <p align="center">
-  <img src ="https://raw.githubusercontent.com/Athlee/VIPCodeGenerator/master/Assets/VIP%20Scheme.png" />
+  <img src ="https://raw.githubusercontent.com/Athlee/VIPCodeGenerator/master/Assets/VIP%20Scheme%20Light.png" />
 </p>
 
 
