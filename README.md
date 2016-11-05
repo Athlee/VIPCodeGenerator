@@ -81,6 +81,13 @@ Generated code is generally expected to be generated within `/Output` folder but
 -`__NAME__`
 ```
 
+This is how VIP cycle generally looks like: 
+
+<p align="center">
+  <img src ="https://raw.githubusercontent.com/Athlee/VIPCodeGenerator/master/Assets/VIP%20Scheme.png" />
+</p>
+
+
 ## Usage
 
 To generate the code all you have to do is to run a script `generate.sh` that is located within `Source` folder. Nothing more. ;]
