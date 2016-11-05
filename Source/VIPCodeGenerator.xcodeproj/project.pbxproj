@@ -32,6 +32,7 @@
 		04B3A8131DCD23C600B8D192 /* __NAME__Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = __NAME__Configurator.swift; sourceTree = "<group>"; };
 		04B3A8151DCD23DB00B8D192 /* __NAME__Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = __NAME__Router.swift; sourceTree = "<group>"; };
 		04B3A81A1DCD344900B8D192 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		04B3A8701DCE57D500B8D192 /* __NAME__Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = __NAME__Worker.swift; path = Pattern/__NAME__Worker.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				04B3A8111DCD23BF00B8D192 /* __NAME__Model.swift */,
 				04B3A8131DCD23C600B8D192 /* __NAME__Configurator.swift */,
 				04B3A8151DCD23DB00B8D192 /* __NAME__Router.swift */,
+				04B3A8701DCE57D500B8D192 /* __NAME__Worker.swift */,
 			);
 			path = Pattern;
 			sourceTree = "<group>";

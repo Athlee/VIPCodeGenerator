@@ -42,13 +42,12 @@ public struct PatternFile {
     static let model = "__NAME__Model.swift"
     static let configurator = "__NAME__Configurator.swift"
     static let router = "__NAME__Router.swift"
+    static let worker = "__NAME__Worker.swift"
 }
 
 //
 // MARK: Loading config
 //
-
-print("Config=\(CommandLine.arguments[1])")
 
 let currentDirectory = CommandLine.arguments[1]
 
@@ -75,8 +74,6 @@ let config = Config(
 let patternPath = currentDirectory + "/" + ((configDict[ConfigKeys.patternPath] as? String) ?? "")
 let outputPath = currentDirectory + "/" + ((configDict[ConfigKeys.outputPath] as? String) ?? "")
 
-print("OutputPath=\(outputPath)")
-
 //
 // MARK: Pattern URLs
 //
@@ -87,6 +84,7 @@ let presenterURL = URL(fileURLWithPath: patternPath.appending("/\(PatternFile.pr
 let modelURL = URL(fileURLWithPath: patternPath.appending("/\(PatternFile.model)"), isDirectory: false)
 let configuratorURL = URL(fileURLWithPath: patternPath.appending("/\(PatternFile.configurator)"), isDirectory: false)
 let routerURL = URL(fileURLWithPath: patternPath.appending("/\(PatternFile.router)"), isDirectory: false)
+let workerURL = URL(fileURLWithPath: patternPath.appending("/\(PatternFile.worker)"), isDirectory: false)
 
 //
 // MARK: Contents' strings
@@ -98,6 +96,7 @@ let presenterString = try? String(contentsOf: presenterURL, encoding: String.Enc
 let modelString = try? String(contentsOf: modelURL, encoding: String.Encoding.utf8)
 let configuratorString = try? String(contentsOf: configuratorURL, encoding: String.Encoding.utf8)
 let routerString = try? String(contentsOf: routerURL, encoding: String.Encoding.utf8)
+let workerString = try? String(contentsOf: workerURL, encoding: String.Encoding.utf8)
 
 //
 // MARK: Processing
@@ -122,6 +121,7 @@ let presenterOutputURL = URL(fileURLWithPath: outputPath.appending("/\(config.na
 let modelOutputURL = URL(fileURLWithPath: outputPath.appending("/\(config.name)/\(PatternFile.model.replacingOccurrences(of: Placeholder.name, with: config.name))"), isDirectory: false)
 let configuratorOutputURL = URL(fileURLWithPath: outputPath.appending("/\(config.name)/\(PatternFile.configurator.replacingOccurrences(of: Placeholder.name, with: config.name))"), isDirectory: true)
 let routerOutputURL = URL(fileURLWithPath: outputPath.appending("/\(config.name)/\(PatternFile.router.replacingOccurrences(of: Placeholder.name, with: config.name))"), isDirectory: true)
+let workerOutputURL = URL(fileURLWithPath: outputPath.appending("/\(config.name)/\(PatternFile.worker.replacingOccurrences(of: Placeholder.name, with: config.name))"), isDirectory: true)
 
 //
 // MARK: Writing to files
@@ -135,3 +135,4 @@ try? processing(string: presenterString, config: config)?.write(to: presenterOut
 try? processing(string: modelString, config: config)?.write(to: modelOutputURL, atomically: true, encoding: String.Encoding.utf8)
 try? processing(string: configuratorString, config: config)?.write(to: configuratorOutputURL, atomically: true, encoding: String.Encoding.utf8)
 try? processing(string: routerString, config: config)?.write(to: routerOutputURL, atomically: true, encoding: String.Encoding.utf8)
+try? processing(string: workerString, config: config)?.write(to: workerOutputURL, atomically: true, encoding: String.Encoding.utf8)
