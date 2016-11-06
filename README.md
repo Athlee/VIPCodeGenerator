@@ -41,6 +41,8 @@ Use the `GeneratorConfig` dictionary to add values.
 </dict>
 ```
 
+> Note: `Name` is the name of a scene you create.
+
 > Note: if `Date` string is empty, generator will use current date as default.
 
 ## Path
